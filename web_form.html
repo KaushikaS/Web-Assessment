@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+		table{
+			border-style: solid;
+			width: 600px;
+			height: 400px;
+		}
+	</style>
+</head>
+<body>
+<form>
+	<table>
+
+		<tr>
+			<td><label style="font-size: 30px;font-weight: bold">Mission Information</label><br><br></td>
+		</tr>
+		<tr>
+			<td><label>Ship Name:</label></td>
+			<td><input type="text" name="shipname" required></td>
+		</tr>
+		<tr>
+			<td><label>Trip Date:</label></td>
+			<td><input type="Date" name="trip" required></td>
+		</tr>
+		<tr>
+			<td><label>Mission Goals:</label></td><br>
+			<tr><td><input type="checkbox"> Exploration</td>
+				<td><input type="checkbox">Contact</td></tr>
+		</tr>
+		<tr>
+			<td><label>Crew Species:</label></td>
+			<td><select id="crew" size="3">
+				<option>Xebrax</option>
+				<option>Snertal</option>
+				<option>Goshy</option>
+				<option>abc</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td><label>Any Additional Comments?</label></td>
+			<td><textarea cols="30" rows="5" placeholder="Write additional comments here..."></textarea></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><button>Submit</button></td>
+		</tr>
+	</tbody>
+	</table>
+</form>
+</body>
+</html>
